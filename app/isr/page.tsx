@@ -1,8 +1,10 @@
-import { revalidateTag, unstable_cache } from "next/cache";
+import { revalidateTag, unstable_cacheTag } from "next/cache";
 
-const getCurrentTime = unstable_cache(async () => {
+async function getCurrentTime() {
+  "use cache";
+  unstable_cacheTag("time");
   return new Date().toISOString();
-}, undefined, { tags: ["time"]})
+}
 
 export default async function Page() {
   async function reloadTime() {

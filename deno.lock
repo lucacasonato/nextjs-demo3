@@ -7,7 +7,7 @@
     "npm:@types/react@19": "19.0.2",
     "npm:eslint-config-next@15.1.2": "15.1.2_eslint@9.17.0_typescript@5.7.2_@typescript-eslint+parser@8.18.1__eslint@9.17.0__typescript@5.7.2_eslint-plugin-import@2.31.0__eslint@9.17.0",
     "npm:eslint@9": "9.17.0",
-    "npm:next@15.1.2": "15.1.2_react@19.0.0_react-dom@19.0.0__react@19.0.0",
+    "npm:next@canary": "15.1.1-canary.18_react@19.0.0_react-dom@19.0.0__react@19.0.0",
     "npm:postcss@8": "8.4.49",
     "npm:react-dom@19": "19.0.0_react@19.0.0",
     "npm:react@19": "19.0.0",
@@ -212,8 +212,8 @@
         "@jridgewell/sourcemap-codec"
       ]
     },
-    "@next/env@15.1.2": {
-      "integrity": "sha512-Hm3jIGsoUl6RLB1vzY+dZeqb+/kWPZ+h34yiWxW0dV87l8Im/eMOwpOA+a0L78U0HM04syEjXuRlCozqpwuojQ=="
+    "@next/env@15.1.1-canary.18": {
+      "integrity": "sha512-TVURLu5/75QpxYANN9zLRE0oSvL4fXtrMMiH3OPoVJWW+jwr9W46aL1OCrxpRuZbuxwvoZbSJr+CC7M0FSmPjQ=="
     },
     "@next/eslint-plugin-next@15.1.2": {
       "integrity": "sha512-sgfw3+WdaYOGPKCvM1L+UucBmRfh8V2Ygefp7ELON0+0vY7uohQwXXnVWg3rY7mXDKharQR3o7uedpfvnU2hlQ==",
@@ -221,29 +221,29 @@
         "fast-glob@3.3.1"
       ]
     },
-    "@next/swc-darwin-arm64@15.1.2": {
-      "integrity": "sha512-b9TN7q+j5/7+rGLhFAVZiKJGIASuo8tWvInGfAd8wsULjB1uNGRCj1z1WZwwPWzVQbIKWFYqc+9L7W09qwt52w=="
+    "@next/swc-darwin-arm64@15.1.1-canary.18": {
+      "integrity": "sha512-vJ2Fny9q9n3+HfZ/K+HB35XakReVEVY5KNokx9I2JMg56onHPV23yUDLjP7rw6e0IBFSq+1Y7IEGcuIuR9G8Bg=="
     },
-    "@next/swc-darwin-x64@15.1.2": {
-      "integrity": "sha512-caR62jNDUCU+qobStO6YJ05p9E+LR0EoXh1EEmyU69cYydsAy7drMcOlUlRtQihM6K6QfvNwJuLhsHcCzNpqtA=="
+    "@next/swc-darwin-x64@15.1.1-canary.18": {
+      "integrity": "sha512-lCedMqWcIlcqSzgh8QUOEGqkg/d7XjLhkvAqxD061uQnZBeoWaOpbvtn7ieXLPKjwUPAJcSTf+btgAFlKGoAgQ=="
     },
-    "@next/swc-linux-arm64-gnu@15.1.2": {
-      "integrity": "sha512-fHHXBusURjBmN6VBUtu6/5s7cCeEkuGAb/ZZiGHBLVBXMBy4D5QpM8P33Or8JD1nlOjm/ZT9sEE5HouQ0F+hUA=="
+    "@next/swc-linux-arm64-gnu@15.1.1-canary.18": {
+      "integrity": "sha512-+4u52+1uilA6cBoeG9C6gZ4DweR2jmryMIPa5UJFOFlLSOGot2UyY/+m4z5BbWIHdgyC13EhU40hnw4s34Sz0Q=="
     },
-    "@next/swc-linux-arm64-musl@15.1.2": {
-      "integrity": "sha512-9CF1Pnivij7+M3G74lxr+e9h6o2YNIe7QtExWq1KUK4hsOLTBv6FJikEwCaC3NeYTflzrm69E5UfwEAbV2U9/g=="
+    "@next/swc-linux-arm64-musl@15.1.1-canary.18": {
+      "integrity": "sha512-zrpp/nOqqolpPQ1DPJqIET/UjzbF6Q+jD/m8h7Vi7j2DuAy4RrkIXslWxRQgt0FCNosjAVndtauu7IZTLWS86Q=="
     },
-    "@next/swc-linux-x64-gnu@15.1.2": {
-      "integrity": "sha512-tINV7WmcTUf4oM/eN3Yuu/f8jQ5C6AkueZPKeALs/qfdfX57eNv4Ij7rt0SA6iZ8+fMobVfcFVv664Op0caCCg=="
+    "@next/swc-linux-x64-gnu@15.1.1-canary.18": {
+      "integrity": "sha512-bi7ZIQwfUc0DtZcGi54Xi/49rokH3niKxqFqhj1UzPw6dgkiCQVdO1OqVLFBQFb0H7TzTvyT2PYiFth8TWjVQw=="
     },
-    "@next/swc-linux-x64-musl@15.1.2": {
-      "integrity": "sha512-jf2IseC4WRsGkzeUw/cK3wci9pxR53GlLAt30+y+B+2qAQxMw6WAC3QrANIKxkcoPU3JFh/10uFfmoMDF9JXKg=="
+    "@next/swc-linux-x64-musl@15.1.1-canary.18": {
+      "integrity": "sha512-i+ULtWkRvyXh7RhykM6QnCKu5Hi5GvpqY+zqCPkNXq5IOOWQmesFa6xF56aKj2RtVro+/tMhqerIYVGs+pB40g=="
     },
-    "@next/swc-win32-arm64-msvc@15.1.2": {
-      "integrity": "sha512-wvg7MlfnaociP7k8lxLX4s2iBJm4BrNiNFhVUY+Yur5yhAJHfkS8qPPeDEUH8rQiY0PX3u/P7Q/wcg6Mv6GSAA=="
+    "@next/swc-win32-arm64-msvc@15.1.1-canary.18": {
+      "integrity": "sha512-BxZS51Zj/4lecEahuXsTDQyjj09w2nIXrLal2eGNMEi5qHrKjsO95Eg+n0upQ/lAealD7h9qzC6C7MCvJVfMzA=="
     },
-    "@next/swc-win32-x64-msvc@15.1.2": {
-      "integrity": "sha512-D3cNA8NoT3aWISWmo7HF5Eyko/0OdOO+VagkoJuiTk7pyX3P/b+n8XA/MYvyR+xSVcbKn68B1rY9fgqjNISqzQ=="
+    "@next/swc-win32-x64-msvc@15.1.1-canary.18": {
+      "integrity": "sha512-ZpkgXOrT6W4smDIjWJQSfB33V9zFqJx1nqJch6TPnhhUHr75cyIg3TptkkOgTWZ9XUPc9gFQFgil7kYNdNhLEA=="
     },
     "@nodelib/fs.scandir@2.1.5": {
       "integrity": "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==",
@@ -1612,8 +1612,8 @@
     "natural-compare@1.4.0": {
       "integrity": "sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw=="
     },
-    "next@15.1.2_react@19.0.0_react-dom@19.0.0__react@19.0.0": {
-      "integrity": "sha512-nLJDV7peNy+0oHlmY2JZjzMfJ8Aj0/dd3jCwSZS8ZiO5nkQfcZRqDrRN3U5rJtqVTQneIOGZzb6LCNrk7trMCQ==",
+    "next@15.1.1-canary.18_react@19.0.0_react-dom@19.0.0__react@19.0.0": {
+      "integrity": "sha512-aewrhV/R2fuifdn4ZToeviUEL331y4NmKM5DbH00DeQjKN+CggeBTMuZ3cPu9XcnoV/47MHaB9rIbeR6z6zWIg==",
       "dependencies": [
         "@next/env",
         "@next/swc-darwin-arm64",
@@ -2400,7 +2400,7 @@
         "npm:@types/react@19",
         "npm:eslint-config-next@15.1.2",
         "npm:eslint@9",
-        "npm:next@15.1.2",
+        "npm:next@canary",
         "npm:postcss@8",
         "npm:react-dom@19",
         "npm:react@19",
